@@ -68,5 +68,23 @@
         "alterName": "Black Panther",
         "alliance": [],
         "imageUrl": "test"
+    },
+    {
+        "name": "Batman",
+        "alterName": "Batman",
+        "age": "30",
+        "imageUrl": "batman.jpeg"
+    },
+    {
+        "name": "Batman",
+        "alterName": "Batman",
+        "age": "30",
+        "imageUrl": "batman.jpeg"
+    },
+    {
+        "name": "Batman",
+        "alterName": "Batman",
+        "age": "30",
+        "imageUrl": "1712390103853batman.jpeg"
     }
 ]

@@ -20,6 +20,8 @@ function get(req, res, next) {
 }
 
 function create(req, res, next) {
+    console.log("=========== ", req.file, req.files)
+    req.body.imageUrl = req.file.filename
     return heroSchema.validateAsync(req.body)
         .then((validationResult) => {
             return readHero()

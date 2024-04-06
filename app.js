@@ -9,6 +9,7 @@ const app = express()
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 app.use(loggerMW)
+app.use(express.static("public"))
 
 app.get("/greetings", (req, res) => {
     return res.send("Hello! from MVC Server.")
