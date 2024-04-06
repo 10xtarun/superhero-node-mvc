@@ -1,9 +1,17 @@
 const express = require("express")
+const path = require("path")
 const { CONSTANTS, loggerMW, customErrorHandler } = require("./utils")
 
 const superheroRoute = require("./routes/superhero")
 
 const app = express()
+
+// view set
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'ejs')
+app.get("/", (req, res) => {
+    res.render("index")
+})
 
 // middlewares
 app.use(express.json())
