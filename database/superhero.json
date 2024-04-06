@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Steve Rogers",
+        "age": 72,
+        "alterName": "Captain America",
+        "aliance": []
+    },
+    {
+        "name": "Bruce Wayne",
+        "age": "30",
+        "alterName": "Batman",
+        "aliance": [
+            "Justice League"
+        ]
+    },
+    {
+        "name": "T'Challa",
+        "age": "40",
+        "alterName": "Black Panther",
+        "aliance": []
+    },
+    {
+        "name": "Red Guardian",
+        "age": 50,
+        "alterName": "Red Guardian",
+        "imageUrl": "test"
+    },
+    {
+        "name": "Red Guardian",
+        "age": 50,
+        "alterName": "Red Guardian",
+        "imageUrl": "test",
+        "alliance": [
+            "Thunderbolts"
+        ]
+    },
+    {
+        "name": "T'Challa",
+        "age": "40",
+        "alterName": "Black Panther",
+        "alliance": [],
+        "imageUrl": "test"
+    },
+    {
+        "name": "T'Challa",
+        "age": "40",
+        "alterName": "Black Panther",
+        "alliance": [],
+        "imageUrl": "test"
+    },
+    {
+        "name": "T'Challa",
+        "age": "40",
+        "alterName": "Black Panther",
+        "alliance": [],
+        "imageUrl": "test"
+    },
+    {
+        "name": "T'Challa",
+        "age": "40",
+        "alterName": "Black Panther",
+        "alliance": [],
+        "imageUrl": "test"
+    },
+    {
+        "name": "T'Challa",
+        "age": "40",
+        "alterName": "Black Panther",
+        "alliance": [],
+        "imageUrl": "test"
+    }
+]
